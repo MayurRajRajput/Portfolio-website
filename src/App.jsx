@@ -9,7 +9,7 @@ import Contact from "./components/Contact"
 function App() {
   const [islightmode, setIslightmode] = useState(false)
   return (
-    <div className={`h-[100vh] w-full transition-colors ease-linear duration-700 ${!islightmode?"bg-zinc-950":"bg-white"} `}>
+    <div className={`h-[100vh] w-screen transition-colors ease-linear duration-700 ${!islightmode?"bg-zinc-950":"bg-white"} `}>
       <Navbar islightmode={islightmode} setIslightmode={setIslightmode}/>
         <Routes>
           <Route path="/" element={<Home islightmode={islightmode}/>}/>

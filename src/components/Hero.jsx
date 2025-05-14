@@ -10,17 +10,17 @@ const Hero = (props) => {
         <div className={`flex flex-col justify-center gap-10    ${!islightmode ? "text-gray-300" : "text-gray-500"}`}>
 
             <div>
-            <h2 className='text-4xl md:text-5xl font-bold transition-colors ease-linear duration-700'>
+            <h2 className='text-2xl sm:text-4xl md:text-5xl font-bold transition-colors ease-linear duration-700'>
                 Hi, I'm
-                <span className='text-4xl md:text-6xl ml-3 font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 animate-gradient-x'>
+                <span className='text-2xl sm:text-4xl md:text-6xl ml-3 font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 animate-gradient-x'>
         Mayur Raj
         </span></h2>
             </div>
-        <div  className='text-gray-500 w-[330px] sm:w-[370px] md:w-[486px] '>
+        <div  className='text-gray-500 w-[280px] sm:w-[370px] md:w-[486px]'>
             <h2 className='text-md sm:text-lg md:text-2xl'>Full Stack Developer & Python Enthusiast</h2>
             <p className='text-sm sm:text-md md:text-lg mt-4  text-wrap'>I build scalable, high-performance web apps with a focus on clean design, modern tech, and seamless user experiences.</p>
         </div>
-            <div className='flex  gap-5'>
+            <div className='flex gap-2 items-center sm:gap-5'>
                 
             <Link
   to="contact"
@@ -28,13 +28,13 @@ const Hero = (props) => {
   duration={500}
   offset={-50} // optional: adjust scroll position
 >
-  <button className='border px-6 py-3 transition-colors ease-linear duration-700 rounded-md bg-blue-700 text-gray-200 border-none font-semibold'>
+  <button className='border px-4 sm:px-6 py-3 transition-colors ease-linear duration-700 rounded-md bg-blue-700 text-gray-200 border-none font-semibold'>
     Get In touch
   </button>
 </Link>
 
 <a href="/resume.pdf" download>
-  <button className="relative inline-block px-6 py-3 rounded text-white font-semibold group">
+  <button className="relative inline-block px-4 sm:px-6 py-3 rounded text-white font-semibold group">
     {/* Gradient Border */}
     <span className="absolute inset-0 rounded-lg p-[2px] bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 animate-gradient-x group-hover:animate-gradient-x z-0"></span>
 

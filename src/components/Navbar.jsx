@@ -4,7 +4,7 @@ import { Link as ScrollLink } from 'react-scroll'
 const Navbar = ({ islightmode, setIslightmode }) => {
 const [isopenbar, setIsopenbar] = useState(false)
   return (
-    <div className={`w-full h-16 flex fixed items-center p-5 md:p-0  justify-between md:justify-around transition-colors ease-linear duration-700 text-gray-400 z-50 ${islightmode ? "text-black bg-white":'text-white bg-black'}`}>
+    <div className={`w-screen h-16 flex fixed items-center p-5 md:p-0  justify-between md:justify-around transition-colors ease-linear duration-700 text-gray-400 z-50 ${islightmode ? "text-black bg-white":'text-white bg-black'}`}>
       <ScrollLink
         to="home"
         smooth={true}

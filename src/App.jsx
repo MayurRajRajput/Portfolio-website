@@ -1,4 +1,4 @@
-import { createContext, useState } from "react"
+import {  useState } from "react"
 import Navbar from "./components/Navbar"
 import { Route,  Routes } from "react-router-dom"
 import Home from "./components/Home"
@@ -8,7 +8,6 @@ import Contact from "./components/Contact"
 
 function App() {
   const [islightmode, setIslightmode] = useState(false)
-   createContext(islightmode)
   return (
     <div className={`h-[100vh] w-full transition-colors ease-linear duration-700 ${!islightmode?"bg-zinc-950":"bg-white"} `}>
       <Navbar islightmode={islightmode} setIslightmode={setIslightmode}/>

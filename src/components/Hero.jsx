@@ -30,7 +30,7 @@ const Hero = ({ islightmode }) => {
             </button>
           </Link>
 
-          <a href="/resume.pdf" download>
+          <a href="/MayurRaj_Resume.pdf" download>
             <button className="relative inline-block px-4 sm:px-6 py-3 rounded text-white font-semibold group">
               <span className="absolute inset-0 rounded-lg p-[2px] bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 animate-gradient-x group-hover:animate-gradient-x z-0"></span>
               <span className={`absolute inset-0 m-[4px] rounded-md transition-colors ease-linear duration-700 z-10 ${islightmode ? "bg-gray-200" : "bg-black"}`}></span>

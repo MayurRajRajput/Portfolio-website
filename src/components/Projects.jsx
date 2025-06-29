@@ -3,12 +3,41 @@ import { ExternalLink } from 'lucide-react';
 
 const Projects = ({ islightmode }) => {
   const projects = [
+      {
+  title: 'Welth – AI Finance Platform',
+  description:
+    'A modern personal finance application with secure authentication, transaction tracking, budgeting tools, and backend automation.',
+  tech: [
+    'Next.js',
+    'React.js',
+    'Tailwind CSS',
+    'Clerk',
+    'Prisma',
+    'Supabase',
+    'Inngest',
+    'Resend',
+    'ShadCN UI'
+  ],
+  link: 'https://welth-finance-platform-nine.vercel.app/',
+  image: '/images/welth.webp',
+},
+,
     {
-      title: 'Chat App',
-      description: 'A real-time chat application with private rooms, typing indicators, and online status features.',
-      tech: ['React.js', 'Node.js', 'Express', 'Socket.io', 'MongoDB', 'Tailwind CSS', 'JWT', 'Cloudinary'],
-      link: 'https://chatapp-fullstack-6ax0.onrender.com/',
-      image: '/images/chatapp.webp',
+      title: 'E-Commerce Website',
+      description:
+        'A fully functional e-commerce platform with secure authentication, product management, and payment integration.',
+      tech: [
+        'React.js',
+        'Tailwind CSS',
+        'Node.js',
+        'Express.js',
+        'MongoDB',
+        'JWT',
+        'Stripe API',
+        'Cloudinary',
+      ],
+      link: 'https://forever-company.netlify.app/',
+      image: '/images/ecommerce.webp',
     },
     {
       title: 'Learning Management System (LMS)',
@@ -27,23 +56,16 @@ const Projects = ({ islightmode }) => {
       link: 'https://lms-frontend-sigma-two.vercel.app/',
       image: '/images/lms.webp',
     },
+
     {
-      title: 'E-Commerce Website',
-      description:
-        'A fully functional e-commerce platform with secure authentication, product management, and payment integration.',
-      tech: [
-        'React.js',
-        'Tailwind CSS',
-        'Node.js',
-        'Express.js',
-        'MongoDB',
-        'JWT',
-        'Stripe API',
-        'Cloudinary',
-      ],
-      link: 'https://forever-company.netlify.app/',
-      image: '/images/ecommerce.webp',
-    },
+      title: 'Chat App',
+      description: 'A real-time chat application with private rooms, typing indicators, and online status features.',
+      tech: ['React.js', 'Node.js', 'Express', 'Socket.io', 'MongoDB', 'Tailwind CSS', 'JWT', 'Cloudinary'],
+      link: 'https://chatapp-fullstack-6ax0.onrender.com/',
+      image: '/images/chatapp.webp',
+    }
+  
+
   ];
 
   return (

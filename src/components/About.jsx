@@ -26,6 +26,7 @@ const About = ({ islightmode }) => {
   }, []);
 
   const techStack = [
+    { src: `/icons/${!islightmode?"nextjs":"nextjsdark"}.png`, alt: 'Nextjs' },
     { src: '/icons/html.png', alt: 'HTML' },
     { src: '/icons/js.png', alt: 'JavaScript' },
     { src: '/icons/python.png', alt: 'Python' },
@@ -57,7 +58,7 @@ const About = ({ islightmode }) => {
             <p>
               Hi, I'm <strong>Mayur Raj</strong>, a Full Stack Developer with a passion for crafting dynamic, scalable web applications. I specialize in front-end and back-end technologies, with a focus on creating seamless user experiences.
               <br />
-              I have hands-on experience with <strong>React.js</strong>, <strong>Node.js</strong>, <strong>Python</strong>, and more, constantly learning and adapting to new technologies to enhance performance and create maintainable solutions.
+              I have hands-on experience with <strong>Next.js</strong>, <strong>React.js</strong>, <strong>Node.js</strong>, <strong>Python</strong>, and more, constantly learning and adapting to new technologies to enhance performance and create maintainable solutions.
               <br />
               Beyond coding, I enjoy collaborating with other developers, mentoring newcomers to the field, and contributing to open-source projects to give back to the community.
             </p>
